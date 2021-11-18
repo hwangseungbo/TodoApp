@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Models", "TodoApp.Models\TodoApp.Models.csproj", "{0B7E3284-11AE-4E1E-A33E-715A820C15BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.Models", "TodoApp.Models\TodoApp.Models.csproj", "{0B7E3284-11AE-4E1E-A33E-715A820C15BB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{2509E67A-FBC7-4182-83B6-9B24383AFF0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.ConsoleApp", "TodoApp.ConsoleApp\TodoApp.ConsoleApp.csproj", "{2045D498-AB65-414B-AA36-3C8347FA1D5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.ConsoleApp", "TodoApp.ConsoleApp\TodoApp.ConsoleApp.csproj", "{2045D498-AB65-414B-AA36-3C8347FA1D5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.ConsoleAppFile", "TodoApp.ConsoleAppFile\TodoApp.ConsoleAppFile.csproj", "{5B0F0D83-8603-4C50-A45C-E3C11B32F28A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +25,17 @@ Global
 		{2045D498-AB65-414B-AA36-3C8347FA1D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2045D498-AB65-414B-AA36-3C8347FA1D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2045D498-AB65-414B-AA36-3C8347FA1D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B0F0D83-8603-4C50-A45C-E3C11B32F28A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0F0D83-8603-4C50-A45C-E3C11B32F28A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0F0D83-8603-4C50-A45C-E3C11B32F28A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0F0D83-8603-4C50-A45C-E3C11B32F28A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2045D498-AB65-414B-AA36-3C8347FA1D5C} = {2509E67A-FBC7-4182-83B6-9B24383AFF0E}
+		{5B0F0D83-8603-4C50-A45C-E3C11B32F28A} = {2509E67A-FBC7-4182-83B6-9B24383AFF0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4575DA7-E46A-430D-B18F-4F56DB91CE8D}

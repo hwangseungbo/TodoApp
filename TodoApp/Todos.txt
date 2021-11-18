@@ -1,0 +1,7 @@
+1,ASP.NET Core 학습,False
+2,Blazor 학습,False
+3,C# 학습,True
+4,Database 학습,True
+5,Database 학습,True
+6,Database 학습,True
+7,Database 학습,True
