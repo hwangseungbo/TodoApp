@@ -5,3 +5,4 @@
 5,Database 학습,True
 6,Database 학습,True
 7,Database 학습,True
+8,Database 학습,True
